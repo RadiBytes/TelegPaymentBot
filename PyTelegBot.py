@@ -94,7 +94,7 @@ def main() -> None:
     dispatcher.add_handler(MessageHandler(Filters.command, unknown))
     
     updater.start_polling()
-    #updater.idle()
+    updater.idle()
 
 if __name__ == '__main__':
     main()
