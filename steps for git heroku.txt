@@ -1,0 +1,9 @@
+To push changes:
+
+::: git add .
+::: git commit
+::: git push
+::: git push heroku master
+   ... It should do now...
+   ...But since we're using worker...
+::: heroku scale worker=1
